@@ -3,7 +3,20 @@
   "WorkspaceRootPath": "D:\\personal github\\Microsoft-Orleans\\orleans\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C088AC2-5377-41F0-9F9A-E870AB4AC550}|..\\orleans.grains\\orleans.grains.csproj|d:\\personal github\\microsoft-orleans\\orleans.grains\\grains\\humangrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92236076-0EA2-4D6D-B714-A1926F43E366}|..\\orleans.silo\\orleans.silo.csproj|d:\\personal github\\microsoft-orleans\\orleans.silo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C088AC2-5377-41F0-9F9A-E870AB4AC550}|..\\orleans.grains\\orleans.grains.csproj|d:\\personal github\\microsoft-orleans\\orleans.grains\\abstractions\\ipolicegrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C088AC2-5377-41F0-9F9A-E870AB4AC550}|..\\orleans.grains\\orleans.grains.csproj|d:\\personal github\\microsoft-orleans\\orleans.grains\\abstractions\\ihumangrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1574D03D-8213-4B9A-90A2-B0C37D92E2E3}|orleans.client.csproj|d:\\personal github\\microsoft-orleans\\orleans\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1574D03D-8213-4B9A-90A2-B0C37D92E2E3}|orleans.client.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,12 +39,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HumanGrain.cs",
+              "DocumentMoniker": "D:\\personal github\\Microsoft-Orleans\\orleans.grains\\Grains\\HumanGrain.cs",
+              "RelativeDocumentMoniker": "..\\orleans.grains\\Grains\\HumanGrain.cs",
+              "ToolTip": "D:\\personal github\\Microsoft-Orleans\\orleans.grains\\Grains\\HumanGrain.cs",
+              "RelativeToolTip": "..\\orleans.grains\\Grains\\HumanGrain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:29:33.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPoliceGrain.cs",
+              "DocumentMoniker": "D:\\personal github\\Microsoft-Orleans\\orleans.grains\\Abstractions\\IPoliceGrain.cs",
+              "RelativeDocumentMoniker": "..\\orleans.grains\\Abstractions\\IPoliceGrain.cs",
+              "ToolTip": "D:\\personal github\\Microsoft-Orleans\\orleans.grains\\Abstractions\\IPoliceGrain.cs",
+              "RelativeToolTip": "..\\orleans.grains\\Abstractions\\IPoliceGrain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:29:16.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IHumanGrain.cs",
+              "DocumentMoniker": "D:\\personal github\\Microsoft-Orleans\\orleans.grains\\Abstractions\\IHumanGrain.cs",
+              "RelativeDocumentMoniker": "..\\orleans.grains\\Abstractions\\IHumanGrain.cs",
+              "ToolTip": "D:\\personal github\\Microsoft-Orleans\\orleans.grains\\Abstractions\\IHumanGrain.cs",
+              "RelativeToolTip": "..\\orleans.grains\\Abstractions\\IHumanGrain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:29:08.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\personal github\\Microsoft-Orleans\\orleans\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\personal github\\Microsoft-Orleans\\orleans\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T10:50:11.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\personal github\\Microsoft-Orleans\\orleans.silo\\Program.cs",
               "RelativeDocumentMoniker": "..\\orleans.silo\\Program.cs",
               "ToolTip": "D:\\personal github\\Microsoft-Orleans\\orleans.silo\\Program.cs",
               "RelativeToolTip": "..\\orleans.silo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T10:33:13.146Z",
               "EditorCaption": ""

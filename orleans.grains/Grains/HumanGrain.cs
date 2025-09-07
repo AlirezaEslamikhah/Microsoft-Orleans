@@ -12,6 +12,8 @@ namespace orleans.grains.Grains
         private  string? _name;
         private  string? _lastname;
         private  string? _nationalcode; 
+
+
         public async Task<string> CheckCrime()
         {
             var policeGrain = GrainFactory.GetGrain<IPoliceGrain> (_nationalcode);  
