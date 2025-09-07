@@ -1,0 +1,24 @@
+C:\Users\a.eslamikhah\source\repos\orleans.grains\bin\Debug\net8.0\orleans.grains.deps.json
+C:\Users\a.eslamikhah\source\repos\orleans.grains\bin\Debug\net8.0\orleans.grains.dll
+C:\Users\a.eslamikhah\source\repos\orleans.grains\bin\Debug\net8.0\orleans.grains.pdb
+C:\Users\a.eslamikhah\source\repos\orleans.grains\obj\Debug\net8.0\orleans.grains.csproj.AssemblyReference.cache
+C:\Users\a.eslamikhah\source\repos\orleans.grains\obj\Debug\net8.0\orleans.grains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.eslamikhah\source\repos\orleans.grains\obj\Debug\net8.0\orleans.grains.AssemblyInfoInputs.cache
+C:\Users\a.eslamikhah\source\repos\orleans.grains\obj\Debug\net8.0\orleans.grains.AssemblyInfo.cs
+C:\Users\a.eslamikhah\source\repos\orleans.grains\obj\Debug\net8.0\orleans.grains.csproj.CoreCompileInputs.cache
+C:\Users\a.eslamikhah\source\repos\orleans.grains\obj\Debug\net8.0\orleans.grains.dll
+C:\Users\a.eslamikhah\source\repos\orleans.grains\obj\Debug\net8.0\refint\orleans.grains.dll
+C:\Users\a.eslamikhah\source\repos\orleans.grains\obj\Debug\net8.0\orleans.grains.pdb
+C:\Users\a.eslamikhah\source\repos\orleans.grains\obj\Debug\net8.0\ref\orleans.grains.dll
+D:\personal github\Microsoft-Orleans\orleans.grains\bin\Debug\net8.0\orleans.grains.deps.json
+D:\personal github\Microsoft-Orleans\orleans.grains\bin\Debug\net8.0\orleans.grains.dll
+D:\personal github\Microsoft-Orleans\orleans.grains\bin\Debug\net8.0\orleans.grains.pdb
+D:\personal github\Microsoft-Orleans\orleans.grains\obj\Debug\net8.0\orleans.grains.csproj.AssemblyReference.cache
+D:\personal github\Microsoft-Orleans\orleans.grains\obj\Debug\net8.0\orleans.grains.GeneratedMSBuildEditorConfig.editorconfig
+D:\personal github\Microsoft-Orleans\orleans.grains\obj\Debug\net8.0\orleans.grains.AssemblyInfoInputs.cache
+D:\personal github\Microsoft-Orleans\orleans.grains\obj\Debug\net8.0\orleans.grains.AssemblyInfo.cs
+D:\personal github\Microsoft-Orleans\orleans.grains\obj\Debug\net8.0\orleans.grains.csproj.CoreCompileInputs.cache
+D:\personal github\Microsoft-Orleans\orleans.grains\obj\Debug\net8.0\orleans.grains.dll
+D:\personal github\Microsoft-Orleans\orleans.grains\obj\Debug\net8.0\refint\orleans.grains.dll
+D:\personal github\Microsoft-Orleans\orleans.grains\obj\Debug\net8.0\orleans.grains.pdb
+D:\personal github\Microsoft-Orleans\orleans.grains\obj\Debug\net8.0\ref\orleans.grains.dll

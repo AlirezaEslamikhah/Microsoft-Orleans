@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "orleans.client.Controllers.HumanController",
+    "Method": "CheckCrime",
+    "RelativePath": "api/Human/checkcrime",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nationalCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "orleans.client.Controllers.HumanController",
+    "Method": "Initialise",
+    "RelativePath": "api/Human/init",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "orleans.client.Dtos.NationalCodeInputDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
