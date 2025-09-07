@@ -1,8 +1,43 @@
-# Ignore the following Unity-generated folders:
+########################################
+# Build output (C#, .NET, Orleans, Unity)
+########################################
+# Ignore all bin and obj folders (recursive)
+**/bin/
+**/obj/
+
+# Legacy or mis-typed patterns (safety)
+bin/
+obj/
+.obj/
+
+########################################
+# Unity-specific generated folders
+########################################
 [Ll]ibrary/
 [Tt]emp/
-.obj/
-obj/
-bin/ 
-**/obj/
-**/bin/ 
+
+########################################
+# Visual Studio / Rider / IDE junk
+########################################
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+########################################
+# Logs and temporary files
+########################################
+*.log
+*.vsidx
+*.pidb
+*.mdb
+
+########################################
+# OS-specific files
+########################################
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
