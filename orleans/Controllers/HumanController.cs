@@ -15,20 +15,21 @@ namespace orleans.client.Controllers
             _client = clusterClient;
         }
 
-        [HttpPost("init")]
-        public async Task <IActionResult> Initialise([FromBody] NationalCodeInputDto dto)
-        {
-            var humanGrain = _client.GetGrain<IHumanGrain>(dto.NationalCode);
-            await humanGrain.Initialise(dto.FirstName , dto.LastName , dto.NationalCode);
-            return Ok($"Human {dto.FirstName} {dto.LastName} initialised with code {dto.NationalCode}");
-        }
 
         [HttpGet("checkcrime")]
-        public async Task<IActionResult> CheckCrime(string nationalCode)
-        {
-            var humanGrain = _client.GetGrain<IHumanGrain>(nationalCode);
-            var result = await humanGrain.CheckCrime();
-            return Ok(result);
+        public async Task<IActionResult> CheckCrime(NationalCodeInputDto dto)
+        { 
+            var humanGrain = _client.GetGrain<IHumanGrain>(dto.NationalCode);
+            if (dto.Age < 18 )
+            {
+                return Ok("OK");
+            }
+            else
+            {
+                var result = await humanGrain.CheckCrime(dto.NationalCode, dto.Age);
+                return Ok(result);
+            }
+            
         }
     }
 }

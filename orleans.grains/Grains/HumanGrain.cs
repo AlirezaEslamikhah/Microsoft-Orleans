@@ -9,25 +9,14 @@ namespace orleans.grains.Grains
 {
     public class HumanGrain : Grain, IHumanGrain
     {
-        private  string? _name;
-        private  string? _lastname;
-        private  string? _nationalcode; 
 
-
-        public async Task<string> CheckCrime()
+        public async Task<string> CheckCrime( string nationalCode , int age)
         {
-            var policeGrain = GrainFactory.GetGrain<IPoliceGrain> (_nationalcode);  
-            string result =  await policeGrain.GetCrimeStatus();
+            var policeGrain = GrainFactory.GetGrain<IPoliceGrain> (nationalCode);  
+            string result =  await policeGrain.GetCrimeStatus(age);
             return result;
         }
 
-        public async Task Initialise(string name, string lastname, string nationalcode)
-        {
-            this._name = name;
-            this._lastname = lastname;
-            this._nationalcode = nationalcode;
-            var policeGrain = GrainFactory.GetGrain<IPoliceGrain> (nationalcode);
-            await policeGrain.Initialise(nationalcode);
-        }
+     
     }
 }

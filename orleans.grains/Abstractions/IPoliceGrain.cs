@@ -8,7 +8,6 @@ namespace orleans.grains.Abstractions
 {
     public interface IPoliceGrain :  IGrainWithStringKey
     {
-        public  Task<string> GetCrimeStatus();
-        public  Task Initialise(string nationalcode);
+        public  Task<string> GetCrimeStatus(int age);
     }
 }

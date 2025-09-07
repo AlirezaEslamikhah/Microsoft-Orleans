@@ -9,23 +9,20 @@ namespace orleans.grains.Grains
 {
     public class PoliceGrain : Grain, IPoliceGrain
     {
-        private string _nationalcode; 
-        public async Task<string> GetCrimeStatus()
+
+
+        public async Task<string> GetCrimeStatus(int age)
         {
-            var randomnum = new Random().Next(0,1);
-            if (randomnum == 0)
-            {
-                return "VALID";
-            }
+            var randomNum = new Random().Next(0,1);
+            if (randomNum == 0)
+            { 
+                return "VALID"; 
+            } 
             else 
             {
                 return "CRIMINAL"; 
             }
         }
 
-        public async Task Initialise(string nationalcode)
-        {
-            this._nationalcode = nationalcode;
-        }
     }
 }

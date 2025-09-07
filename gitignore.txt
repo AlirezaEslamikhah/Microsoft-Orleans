@@ -1,0 +1,7 @@
+# Ignore the following Unity-generated folders:
+[Ll]ibrary/
+[Tt]emp/
+.obj/
+obj/
+bin/ 
+
