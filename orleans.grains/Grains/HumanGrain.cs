@@ -13,8 +13,7 @@ namespace orleans.grains.Grains
         public async Task<string> CheckCrime( string nationalCode , int age)
         {
             var policeGrain = GrainFactory.GetGrain<IPoliceGrain> (nationalCode);  
-            string result =  await policeGrain.GetCrimeStatus(age);
-            return result;
+            return  await policeGrain.GetCrimeStatus(age);
         }
 
      
